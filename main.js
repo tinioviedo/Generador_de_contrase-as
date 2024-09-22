@@ -35,11 +35,11 @@ function validarContrasena(password) {
     if (!tieneLongitud) {
         mensaje = "La contraseña debe contener al menos 8 caracteres.";
     } else if (!tieneNumero) {
-        mensaje = " Contraseña es débil, la contraseña debe contener al menos un número.";
+        mensaje = "Contraseña es débil, la contraseña debe contener al menos un número.";
     } else if (!tieneMayuscula) {
-        mensaje = "La contraseña debe contener al menos una letra mayúscula.";
+        mensaje = "Contraseña es débil, la contraseña debe contener al menos una letra mayúscula.";
     } else if (!tieneEspecial) {
-        mensaje = "La contraseña debe contener al menos un carácter especial.";
+        mensaje = "Contraseña es débil, la contraseña debe contener al menos un carácter especial.";
     } else {
         mensaje = "Contraseña es fuerte.";
     }
